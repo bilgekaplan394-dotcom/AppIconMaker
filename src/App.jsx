@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Download, Upload, Smile, Palette, Layout, Smartphone, Crown, X, Check, Box, Layers, Grid } from 'lucide-react';
 
+
 export default function AppIconApp() {
   // State: İkon Ayarları
   const [config, setConfig] = useState({
