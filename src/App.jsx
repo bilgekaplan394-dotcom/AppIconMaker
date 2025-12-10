@@ -67,7 +67,8 @@ export default function AppIconApp() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 font-sans text-slate-800 flex flex-col md:flex-row overflow-hidden">
+<div className="min-h-screen bg-slate-950 font-sans text-slate-800 flex flex-col md:flex-row overflow-hidden">
+
       
       {/* SOL PANEL: EDİTÖR */}
       <div className="w-full md:w-96 bg-white border-r border-slate-200 h-screen overflow-y-auto z-10 shadow-xl flex flex-col">
@@ -222,7 +223,7 @@ export default function AppIconApp() {
       </div>
 
       {/* SAĞ PANEL: ÖNİZLEME */}
-      <div className="flex-1 bg-slate-100 flex flex-col items-center justify-center p-8 relative overflow-hidden">
+<div className="flex-1 bg-slate-950 flex flex-col items-center justify-center p-8 relative overflow-hidden">
         
         {/* Arka Plan Deseni */}
         <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: 'url("https://www.transparenttextures.com/patterns/cubes.png")' }}></div>
